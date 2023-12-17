@@ -22,7 +22,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "RealmSwift",
-            url: "https://github.com/realm/realm-swift/releases/download/v10.45.0/RealmSwift@15.0.spm.zip",
+            url: "https://github.com/realm/realm-swift/releases/download/v10.45.0/RealmSwift@15.1.spm.zip",
             checksum: "b8c4f8d88c574420a0668cb46d6b0d3cf30c4d0076128540ae2e092c538c04e4"
         )
     ]
