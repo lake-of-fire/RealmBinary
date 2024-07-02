@@ -17,13 +17,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Realm",
-            url: "https://github.com/realm/realm-swift/releases/download/v10.51.0/Realm.spm.zip",
-            checksum: "52c24b44863f83433592590035ba7cf55478cb076b659a68218e8d98648ef115"
+            url: "https://github.com/realm/realm-swift/releases/download/v10.52.1/Realm.spm.zip",
+            checksum: "370d5da7128b9f0edfb3872926712276a9e9dcb9524ed6dddcbb6c664fb73408"
         ),
         .binaryTarget(
             name: "RealmSwift",
-            url: "https://github.com/realm/realm-swift/releases/download/v10.51.0/RealmSwift@15.4.spm.zip",
-            checksum: "b39f8b7ed1d432f3bc5c65649997d00676062a9e73e3fcda07d5146744c79736"
+            url: "https://github.com/realm/realm-swift/releases/download/v10.52.1/RealmSwift@15.4.spm.zip",
+            checksum: "179c18cf38b8bce2248e8cd3a6b56be413dea9b60fdbbee46bb4d32c91cf2500"
         )
     ]
 )
