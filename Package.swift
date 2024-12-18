@@ -19,13 +19,13 @@ let package = Package(
     targets: [
       .binaryTarget(
         name: "Realm",
-        url: "https://github.com/realm/realm-swift/releases/download/v10.54.1/Realm.spm.zip",
-        checksum: "5be6d10b5829dd7f20bd4e4cf8dab29f3985ca815de3105c9e1866aa82eda431"
+        url: "https://github.com/realm/realm-swift/releases/download/v10.54.2/Realm.spm.zip",
+        checksum: "82605f28998c711dc8e74b43001dba7f95a2eab41b134e969a628d61b96f6adf"
       ),
       .binaryTarget(
         name: "RealmSwift",
-        url: "https://github.com/realm/realm-swift/releases/download/v10.54.1/RealmSwift@16.1.spm.zip",
-        checksum: "e9089f8080f6fd82f74cc155987921e1ce8f7f2b79622482f7a3533e4686912d"
+        url: "https://github.com/realm/realm-swift/releases/download/v10.54.2/RealmSwift@16.1.spm.zip",
+        checksum: "ae4aa7adb13dabd4a33e95c6c0b6fe51236d6773c4684f46a51be35e4183f068"
       ),
       .target(name: "_RealmStub"),
     ]
