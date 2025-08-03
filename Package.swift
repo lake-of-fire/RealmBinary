@@ -5,13 +5,17 @@ let package = Package(
     name: "RealmBinary",
     platforms: [.iOS(.v12)],
     products: [
-      .library(
-        name: "Realm",
-        targets: ["Realm", "_RealmStub"]
-      ),
+//      .library(
+//        name: "Realm",
+//        targets: ["Realm", "_RealmStub"]
+//      ),
+//      .library(
+//        name: "RealmSwift",
+//        targets: ["RealmSwift", "Realm", "_RealmStub"]
+//      )
       .library(
         name: "RealmSwift",
-        targets: ["RealmSwift", "Realm", "_RealmStub"]
+        targets: ["_RealmStub"]
       )
     ],
     dependencies: [
@@ -33,8 +37,7 @@ let package = Package(
 //        // checksum: "b6b9d80f6bc091257f95aa4b22362ea737c22b139d8f408039e60c251bf7f97d"
 //      ),
         .target(
-//            name: "_RealmStub",
-            name: "RealmSwift",
+            name: "_RealmStub",
             dependencies: [
                 .product(name: "RealmSwift", package: "realm-swift"),
             ]
