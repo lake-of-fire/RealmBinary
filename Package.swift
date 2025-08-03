@@ -33,7 +33,8 @@ let package = Package(
 //        // checksum: "b6b9d80f6bc091257f95aa4b22362ea737c22b139d8f408039e60c251bf7f97d"
 //      ),
         .target(
-            name: "_RealmStub",
+//            name: "_RealmStub",
+            name: "RealmSwift",
             dependencies: [
                 .product(name: "RealmSwift", package: "realm-swift"),
             ]
